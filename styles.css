@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffb6b6;
+}
+.wrapper {
+    text-align: center;
+    width: 30em;
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.counter {
+    margin: auto;
+    width: 50%;
+    color: red;
+    font-size: 10em;
+    border: 2px solid rgb(143, 0, 0);
+    border-radius: 2em;
+    background-color : #ffb6b6;
+}
+
+/* BUTTONS CSS*/
+
+.buttons {
+   
+    margin: 20px;
+   
+}
+
+sl-button {
+    margin: 10px;
+    width: 6em;
+    height: 3em;
+}
+
+sl-button::part(base) {
+ 
+    border: 2px solid rgb(143, 0, 0);
+    color: red;
+    background-color : #ffb6b6;
+}
+
+sl-button::part(base):hover {
+ 
+    border: 2px solid red;
+    background-color : #ffdddd;
+}
+
+.alert {
+    padding: 10px;
+}
+
+sl-alert::part(base) {
+    color: rgb(143, 0, 0);
+} 
+
+sl-alert::part(icon) {
+    color: rgb(143, 0, 0);
+} 
